@@ -11,6 +11,7 @@ Este é um aplicação que tem a finalidade de facilitar o acesso a todos o her�
 <p align="center">
   <a href="#instalação">Instalação</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#aplicação">Aplicação</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#docker">Docker</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#endpoints">Endpoints</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -60,7 +61,7 @@ yarn start:dev
 
 ## **Aplicação**
 
-Depois que api ja estiver iniciada em sua máquina, prossiga com o passo-a-passo de usabilidade da aplicação, porém se opitar por não instalar o frontend disponibilizamos o [link do deploy](https://contact-list-git-main-vagnermengali.vercel.app/)<br/>
+Depois que api ja estiver iniciada em sua máquina, prossiga com o passo-a-passo de usabilidade da aplicação<br/>
 
 A url base da interface é http://localhost:3001
 
@@ -84,6 +85,20 @@ yarn ou yarn install
 
 ```
 yarn dev
+```
+
+<p align ='center'><a href="#--marvel-universe" >Voltar ao início</a></p>
+
+---
+
+## **Docker**
+
+A seguir esta o passo-a-passo de instalação e execução do container<br/>
+
+<p>1. Clone o repositório:</p>
+
+```
+docker-compose up --build
 ```
 
 <p align ='center'><a href="#--marvel-universe" >Voltar ao início</a></p>
