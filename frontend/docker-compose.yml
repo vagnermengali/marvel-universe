@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  marvel-universe:
+    container_name: marvel-universe-prod
+    build: .
+
+    ports:
+      - 3001:3000
+    command: yarn start
